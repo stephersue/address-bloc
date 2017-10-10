@@ -1,5 +1,4 @@
 require_relative '../models/address_book'
-require_relative '../controllers/menu_controller'
 require_relative 'entry'
 
 class AddressBook
@@ -31,6 +30,5 @@ class AddressBook
      end
      entries.insert(index, Entry.new(name, phone_number, email))
    end
-
 
 end
